@@ -1,9 +1,9 @@
-package Producer_Consumer;
+package Producer_Consumer_Oracle;
 
 import java.util.Random;
 
 public class Consumer implements Runnable {
-    private Drop drop;
+    private final Drop drop;
 
     public Consumer(Drop drop) {
         this.drop = drop;

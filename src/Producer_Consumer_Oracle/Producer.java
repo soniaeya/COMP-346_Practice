@@ -1,4 +1,4 @@
-package Producer_Consumer;
+package Producer_Consumer_Oracle;
 
 import java.util.Random;
 

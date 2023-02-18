@@ -1,7 +1,7 @@
 package Practice;
 
 public class Threading extends Thread {
-    private String name;
+    private final String name;
     Threading(String name){
         this.name = name;
     }

@@ -64,8 +64,8 @@ public class Safelock {
     }
 
     static class BowLoop implements Runnable {
-        private Friend bower;
-        private Friend bowee;
+        private final Friend bower;
+        private final Friend bowee;
 
         public BowLoop(Friend bower, Friend bowee) {
             this.bower = bower;
